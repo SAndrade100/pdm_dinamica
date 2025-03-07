@@ -1,6 +1,9 @@
 export const Palette = {
   light_beige: "#FFF9F2",
-  orage: "#FB9400",
+  orange: "#FB9400",
+  dark_orange: "#F08E00",
   white: "#FFFFFF",
-  black: "#000000"
+  black: "#1B1B1B",
+  light_gray: "#E2E2E2",
+  gray: "#6A7D8B"
 }
