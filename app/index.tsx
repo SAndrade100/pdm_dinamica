@@ -6,6 +6,8 @@ export default function App() {
   return (
     <>
     <Container>
+      <Link href={"/cadastro"}>Link</Link>
+
       <Link href={"/home"}>Link</Link>
 
       <Link href={'/perfil'}>Perfil</Link>
