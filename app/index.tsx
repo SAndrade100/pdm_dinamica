@@ -7,6 +7,9 @@ export default function App() {
     <>
     <Container>
       <Link href={"/home"}>Link</Link>
+
+      <Link href={'/perfil'}>Perfil</Link>
+
     </Container>
     </>
   );
