@@ -1,11 +1,20 @@
 import { Palette } from "@/public/Palette";
 import styled from "styled-components/native";
 
+export const ImageContainer = styled.View`
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+
+  top: 10px;
+`
+
 export const Image = styled.Image`
   position: absolute;
   z-index: 9999;
-
-  transform: scale(0.4);
+  
+  object-fit: contain;
+  transform: scale(0.35);
 `
 
 export const Card = styled.View`

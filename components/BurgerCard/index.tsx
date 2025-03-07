@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, Image, Infos, Label, Price, Title } from "./style";
+import { Card, Image, ImageContainer, Infos, Label, Price, Title } from "./style";
 import { Pressable } from "react-native";
 
 export default function BurgerCard (
@@ -15,9 +15,11 @@ export default function BurgerCard (
       onPress={() => {/* GO TO ITEM PAGE */}}
     >
       <Card>
-        <Image
-          source={require("@/public/img.png")}
-        />
+        <ImageContainer>
+          <Image
+            source={require("@/public/img.png")}
+          />
+        </ImageContainer>
         <Infos>
           <Label>Tradicional</Label>
           <Title>{props.title}</Title>
