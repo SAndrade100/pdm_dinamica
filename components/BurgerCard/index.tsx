@@ -7,7 +7,7 @@ export default function BurgerCard (
   props: {
     title: string,
     price: string,
-    image: string
+    //image: string
   }
 ) {
   return (

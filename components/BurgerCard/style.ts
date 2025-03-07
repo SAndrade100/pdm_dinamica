@@ -5,7 +5,6 @@ export const ImageContainer = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
-
   top: 10px;
 `
 
@@ -23,7 +22,7 @@ export const Card = styled.View`
   align-items: center;
   justify-content: flex-end;
 
-  width: 178px;
+  width: 158px;
   height: 178px;
 
   background-color: ${Palette.light_beige};
