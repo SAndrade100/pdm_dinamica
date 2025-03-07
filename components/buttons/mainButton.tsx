@@ -21,11 +21,16 @@ const styles = StyleSheet.create({
 
   botaoFilled: {
     padding: 17,
+    width:"90%",
+    marginVertical:"5%",
+    marginTop:"15%",
     borderRadius: 5,
     backgroundColor: '#FB9400',
   },
   botaoEmpty: {
+
     padding: 17,
+    width:"90%",
     borderRadius: 5,
     backgroundColor: '#FFFFFF',
     borderColor:'#FB9400',
